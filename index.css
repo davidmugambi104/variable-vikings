@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: rgba(243, 190, 43, 0.6);
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header .logo{
+    color:aqua;
+    font-size: 2em;
+    text-decoration: none;
+    background: #030000;
+    font-family: sans-serif;
+    font-weight: 600px;
+
+}
+header .navbar{
+    position: relative;
+    display: flex;
+}
+header .navbar li{
+    list-style: none;
+    margin-left: 30px;
+}
+header .navbar li a{
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px;
+    transform: 0.3s;
+    font-size: 0.9em;
+}
+.container{
+    position: relative;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    }
+.container .contentbox{
+        position: relative;
+        max-width: 700px;
+    }
+.container .contentbox h2{
+        font-size:4.5em;
+        text-transform: uppercase;
+        color:#071f52;
+        line-height: 1.3;
+        padding-left: 10px;
+
+    }
+    .container .contentbox span{
+        background: #071f52;
+        color: beige;
+        padding: 0 10px;
+        font-family: 'lora',serif;
+        font-weight: 600;
+
+    }
+.container .contentbox p{
+    font-size: 1.8em;
+    font-family: 'lora',serif;
+    line-height: 1.5;
+    color: rgb(219, 90, 133);
+    font-weight: 200;
+    margin-bottom: 28px;
+
+
+}    
+.container .contentbox a{
+    text-decoration: none;
+    background: #071f52;
+    color: bisque;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+.container .contentbox a:hover{
+    color: #071f52;
+    background: #f3eded;
+
+}
