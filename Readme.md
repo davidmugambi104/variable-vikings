@@ -10,7 +10,7 @@ This is me sharing about:my skills,education level,hobbies and some of my favour
 
 ## SCREENSHOTS
 -![image](https://github.com/kahenya-anita/The-Tribe-Portfolio/assets/162628421/20683ea4-544c-470d-bdc5-44bff1d101d3)
-- link 2
+
 
 
 ********
@@ -41,7 +41,7 @@ To install all requirements
 Then run server with the above command
 *****
 ## Live Link
-Or you can access the web application directly via this [LINK.](link.com/)
+Or you can access the web application directly via this [.https://charming-souffle-ab927d.netlify.app] (https://charming-souffle-ab927d.netlify.app/)
 *****
 ## Dependencies
 -Google-fonts
